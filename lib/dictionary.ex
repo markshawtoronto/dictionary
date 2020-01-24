@@ -5,7 +5,7 @@ defmodule Dictionary do
   end
 
   def random_word do
-    word_list
+    word_list()
       |> Enum.random
   end
 
